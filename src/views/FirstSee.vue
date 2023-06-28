@@ -14,15 +14,15 @@ import { defineComponent, ref } from 'vue'
 import { useRouter } from 'vue-router'
 
 export default defineComponent({
-    name: 'Start',
+    name: 'FirstSee',
     setup() {
         //router：全局路由對象  route：當前路由對象
         let router = useRouter()
         let start = () => {
-            //點按鈕 路由就會跳轉到homeview頁面！！
+            //點按鈕 路由就會跳轉到MyComponent頁面！！
             // push方法
             router.push({
-                path: '/home'
+                path: '/MyComponent'
             })
         }
 
