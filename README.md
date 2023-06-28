@@ -1,3 +1,4 @@
+https://deanniee.github.io/list/
 # list
 
 ## Project setup
@@ -22,17 +23,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-# vue3todolist
-# vue3todolist
-# vue3todolist
-# vue3todolist
-# vue3todolist
-# vue3todolist
-# to.github.io
-# hi
-# hi
-# todo
-# todo
-# aa
-# aa
-# list
+
