@@ -9,13 +9,13 @@
         <!-- 通過父組件綁定clear 傳給子組件 -->
         <nav-footer :list='list' @clear="clear"></nav-footer>
     </div>
-    <!-- <div>{{ list }}</div> -->
+   
 </template>
 
 <script>
 
-// 把三個components裡的子組件都引入到這個父組件來      
-// @小老鼠代表src文件ㄉ簡寫  .vue可以省略            
+    
+          
 //引入子組件
 import NavHeader from "@/components/navHeader/NavHeader";
 import NavMain from "@/components/navMain/NavMain";
@@ -30,7 +30,7 @@ import { useStore } from 'vuex'
 
 //組件通過export default導出defineComponent方法，之後就能在其他組件引用了
 export default defineComponent({  //配置組件
-    name: 'MyComponent', //組件名稱
+    name: 'MyComponent', 
     components: { //掛載
         NavHeader,
         NavMain,
