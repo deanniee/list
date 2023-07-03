@@ -49,13 +49,13 @@ export default defineComponent({
    font-size: 40px;
     
 
-    /// div 置中！////////////
+    
     position: absolute;
     left: 50%;
     top: 40%; 
     margin-left: -50px; 
     margin-top: -50px;
-    /////////////////////////
+    
 }
 
 .b>button {
