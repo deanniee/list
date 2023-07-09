@@ -1,6 +1,6 @@
 <template>
     <div class="c"><!--父組件 傳遞給 子組件-->
-        <!-- 父組件add  -->
+        <!-- add  -->
         <nav-header @add="add"></nav-header>
         <!-- 通過父組件動態綁定list 傳給子組件 -->
         <!-- 通過父組件綁定del 傳給子組件 -->
